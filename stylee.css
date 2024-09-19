@@ -1,0 +1,121 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ecc998;
+    background-repeat: repeat;
+    background-size: 200px 200px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-logo-nombre {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el texto */
+}
+
+.logo {
+    width: 200px; /* Ajusta el tamaño del logo */
+    margin-right: 35px; /* Añade un espacio entre el logo y el nombre */
+}
+
+header {
+    background: #000000;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #000000 6px solid;
+}
+header a {
+    color: #ecc998;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+img {
+    overflow: clip;
+    width: 35%;
+    box-shadow: 5 3 5 10px #ecc998;
+    border-radius: 50%;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    color: #ecc998;
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #000000;
+    font-weight: bold;
+}
+header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+.product-card {
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.product-card img {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.product-card h3 {
+    margin: 10px 0;
+    color: #ecc998;
+}
+.product-card p {
+    color: #ecc998;
+    margin-bottom: 10px;
+}
+.product-card .price {
+    font-weight: bold;
+    color: #ecc998;
+    font-size: 1.2em;
+    
+}
+a:-webkit-any-link {
+    display: inline-block;
+    background-color: #ecc998;
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ecc998;
+    background-color: #000000;
+    text-align: center;
+}
